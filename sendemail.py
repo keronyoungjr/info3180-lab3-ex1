@@ -6,7 +6,8 @@ def sendemail(from_name, from_addr, to_name,to_addr, subject, msg):
     to_name= 'Keron'
     to_addr = 'keronyoungjr@yahoo.com'
     Subject= 'Lab 3  Email Test'
-    message = 'Mad thing. You received an email. Great.'
+    message = """From: {} <{}> To: {} <{}> Subject: {} {} """ 
+
     
      
     
